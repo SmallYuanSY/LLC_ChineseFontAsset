@@ -19,7 +19,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file_glob: true
-        file: Release/*.zip
+        file: Release/*.7z
         release_name: ${{ env.MY_TAG }}
         tag: ${{ env.MY_TAG }}
         overwrite: true
